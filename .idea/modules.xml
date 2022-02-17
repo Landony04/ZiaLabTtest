@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SearchGitHub.iml" filepath="$PROJECT_DIR$/.idea/modules/SearchGitHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SearchGitHub.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SearchGitHub.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/SearchGitHub.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/SearchGitHub.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/SearchGitHub.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/SearchGitHub.domain.iml" />
+    </modules>
+  </component>
+</project>
