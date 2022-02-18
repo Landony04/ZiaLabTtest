@@ -2,6 +2,7 @@ package com.zialab.domain.repositories
 
 import com.zialab.domain.common.Result
 import com.zialab.domain.entities.ResultSearchUI
+import com.zialab.domain.entities.SearchUserRequestUI
 import kotlinx.coroutines.flow.Flow
 
 /**
@@ -13,7 +14,6 @@ interface SearchUserRepository {
      * This fun searchUser is use for inject data source
      */
     fun searchUser(
-        user: String,
-        perPage: Int
+        searchUserRequestUI: SearchUserRequestUI
     ): Flow<Result<ResultSearchUI>>
 }

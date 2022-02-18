@@ -1,4 +1,4 @@
-package com.example.data.di
+package com.zialab.data.di
 
 import javax.inject.Qualifier
 
@@ -12,4 +12,4 @@ annotation class ZiaLabServices
 
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
-annotation class OkhttpInterceptor
+annotation class OkhttpByKey
