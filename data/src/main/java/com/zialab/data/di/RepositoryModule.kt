@@ -1,6 +1,5 @@
 package com.zialab.data.di
 
-import com.example.data.di.ZiaLabServices
 import com.zialab.data.api.ZiaLabApiService
 import com.zialab.data.repositories.SearchUserRepositoryImpl
 import com.zialab.data.util.DispatcherProvider
