@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561628697449",
+    "project_id": "zialabtest",
+    "storage_bucket": "zialabtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561628697449:android:764126b7f8ec503a1e23f8",
+        "android_client_info": {
+          "package_name": "com.zialab.searchgithub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561628697449-aoeoe2dcfc3semddacjmib8bv60oar0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zialab.searchgithub",
+            "certificate_hash": "1c9cc01abc543eb94d0975610116a0ef6b2281b4"
+          }
+        },
+        {
+          "client_id": "561628697449-ro8cmrjlf66abnjchnk88v5pmjiul4um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeZD64Wml4hymGHBwdm9qFph4KTwzqroQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561628697449-ro8cmrjlf66abnjchnk88v5pmjiul4um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
