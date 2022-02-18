@@ -23,4 +23,3 @@ Dagger y Hilt como SDK para la aplicacion de inyeccion de dependencias.
  
 Run App:
 Android Studio Menu > Run > Run App, tomar en cuenta de no seleccionar los otros modulos (data y domain).
-
