@@ -2,9 +2,6 @@
 
 package com.zialab.data.di
 
-import com.example.data.di.BaseUrl
-import com.example.data.di.OkhttpInterceptor
-import com.example.data.di.ZiaLabServices
 import com.zialab.data.api.ZiaLabApiService
 import com.zialab.data.util.DefaultDispatcherProvider
 import com.zialab.data.util.DispatcherProvider
@@ -33,7 +30,7 @@ object NetworkModule {
     @Provides
     fun provideApiMethods(
         @BaseUrl baseUrl: String,
-        @OkhttpInterceptor okHttpClient: OkHttpClient
+        @OkhttpByKey okHttpClient: OkHttpClient
     ): ZiaLabApiService {
         val retrofit = Retrofit.Builder()
             .baseUrl(baseUrl)
@@ -49,7 +46,7 @@ object NetworkModule {
         return retrofit
     }
 
-    @OkhttpInterceptor
+    @OkhttpByKey
     @Provides
     fun providesOkhttpClient(
         loggingInterceptor: HttpLoggingInterceptor
