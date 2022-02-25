@@ -16,6 +16,8 @@ fun UserResponse.toUserUI(): UserUI {
     return UserUI(
         id = this.id,
         username = this.username,
-        avatarUrl = this.avatarUrl
+        avatarUrl = this.avatarUrl,
+        numberRepos = this.publicRepos,
+        isCall = false
     )
 }
