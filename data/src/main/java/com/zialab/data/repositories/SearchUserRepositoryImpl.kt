@@ -1,7 +1,7 @@
 package com.zialab.data.repositories
 
-import com.zialab.data.di.ZiaLabServices
 import com.zialab.data.api.ZiaLabApiService
+import com.zialab.data.di.ZiaLabServices
 import com.zialab.data.mappers.toResultResponseUI
 import com.zialab.data.util.BaseRepository
 import com.zialab.data.util.DispatcherProvider
@@ -23,7 +23,8 @@ class SearchUserRepositoryImpl @Inject constructor(
             val response = ziaLabApiService.getGitHubUsers(
                 searchUserRequestUI.user,
                 1,
-                searchUserRequestUI.perPage
+                searchUserRequestUI.perPage,
+                "token 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"
             ).bodyOrException()
 
             emit(Result.Success(response.toResultResponseUI()))

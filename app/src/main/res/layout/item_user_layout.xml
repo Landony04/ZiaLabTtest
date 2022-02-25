@@ -24,6 +24,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center_vertical"
         android:orientation="vertical">
 
         <TextView
@@ -31,12 +32,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_item"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@android:color/holo_blue_bright" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/number_repos"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:padding="10dp" />
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/background_text_repositories"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
     </LinearLayout>
 </LinearLayout>
