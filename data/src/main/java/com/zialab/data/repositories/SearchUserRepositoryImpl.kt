@@ -24,7 +24,7 @@ class SearchUserRepositoryImpl @Inject constructor(
                 searchUserRequestUI.user,
                 1,
                 searchUserRequestUI.perPage,
-                "token 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"
+                "token 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"
             ).bodyOrException()
 
             emit(Result.Success(response.toResultResponseUI()))
