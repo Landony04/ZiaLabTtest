@@ -8,5 +8,7 @@ data class ResultSearchUI(
 data class UserUI(
     val id: Int,
     val username: String,
-    val avatarUrl: String
+    val avatarUrl: String,
+    val numberRepos: Int?,
+    var isCall: Boolean
 )
